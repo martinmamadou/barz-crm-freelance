@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions légales – Barz</title>
+    <meta name="description" content="Mentions légales de l'application Barz. Éditeur, hébergement, contact et données personnelles.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .legal-page { max-width: 48rem; margin: 0 auto; padding: 2rem 0 4rem; }
+        .legal-page .back-link { display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 2rem; font-weight: 500; color: var(--color-primary); }
+        .legal-page .back-link:hover { text-decoration: none; color: var(--color-primary-dark); }
+        .legal-page h1 { font-size: 1.75rem; font-weight: 700; color: var(--color-text); margin: 0 0 1.5rem; }
+        .legal-page .section-title { font-size: 1rem; font-weight: 600; color: var(--color-text); margin: 1.5rem 0 0.5rem; }
+        .legal-page .section-title:first-of-type { margin-top: 0; }
+        .legal-page p { margin: 0 0 1rem; font-size: 0.9375rem; line-height: 1.6; color: var(--color-text-secondary); }
+        .legal-page a { color: var(--color-primary); }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo" aria-label="Barz accueil">
+                <img src="assets/img/Logo1.png" alt="" class="logo__img" width="32" height="32">
+                <span class="logo__text">Barz</span>
+            </a>
+            <nav class="nav" aria-label="Navigation">
+                <a href="index.html#fonctionnalites">Fonctionnalités</a>
+                <a href="index.html#tarifs">Tarifs</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container legal-page">
+        <a href="index.html" class="back-link" aria-label="Retour à l'accueil">← Retour</a>
+        <h1>Mentions légales</h1>
+
+        <h2 class="section-title">Éditeur</h2>
+        <p>L'application Barz est éditée par Martin Mamadou. Siège social : 19b rue Auguste Delage, 69680.</p>
+
+        <h2 class="section-title">Directeur de la publication</h2>
+        <p>Martin Mamadou</p>
+
+        <h2 class="section-title">Hébergement</h2>
+        <p>L'application et ses données sont hébergées par Google (Firebase / Google Cloud), Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande.</p>
+
+        <h2 class="section-title">Contact</h2>
+        <p>Pour toute question : <a href="mailto:supportbarz@proton.me">supportbarz@proton.me</a></p>
+
+        <h2 class="section-title">Données personnelles</h2>
+        <p>Les données collectées sont utilisées pour le fonctionnement de l'application (gestion des clients et des tâches) et, le cas échéant, pour la mesure d'audience (analytics, ex. Google Analytics). Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Contactez-nous pour exercer ces droits.</p>
+
+        <h2 class="section-title">Propriété intellectuelle</h2>
+        <p>L'ensemble des contenus de l'application (textes, visuels, structure) est protégé par le droit d'auteur. Toute reproduction non autorisée est interdite.</p>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copy"><a href="index.html" style="color: var(--color-primary-light);">Barz</a> – <a href="mentions-legales.html" style="color: var(--color-primary-light);">Mentions légales</a></p>
+        </div>
+    </footer>
+</body>
+</html>
